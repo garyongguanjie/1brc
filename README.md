@@ -4,7 +4,7 @@ Not much naive implementation
 
 baseline.c -> ~ 2minutes
 
-baseline2.c (read in chunks of size pagesize) -> ~ 2minutes 
+baseline2.c (read in chunks of size pagesize) -> ~ 1 minute
 
 baseline.py -> ~ 15 minutes
 
