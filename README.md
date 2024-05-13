@@ -4,8 +4,10 @@ Not much naive implementation
 
 baseline.c -> ~ 2minutes
 
-baseline2.c (read in chunks of size pagesize) -> ~ 1 minute
+baseline2.c -> ~ 1 minute
 
 baseline.py -> ~ 15 minutes
+
+baseline.js -> ~ 12 minutes
 
 java reference implementation -> ~ 3 minutes

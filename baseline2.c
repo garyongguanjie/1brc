@@ -3,10 +3,9 @@
 #include <string.h>
 #include <ctype.h>
 
-#define hashSize 1000
-#define lineSize 100
-// page size of linux file system
-#define bufferSize 4096
+#define hashSize 1024
+#define lineSize 256
+#define bufferSize 8192
 
 #define MAX(a,b) ((a) > (b) ? (a) : (b))
 #define MIN(a,b) ((a) < (b) ? (a) : (b))
@@ -95,7 +94,7 @@ int main(){
     struct City **cityArray;
     struct City **cap;
     struct Node *p;
-
+    
     FILE *fp = fopen("measurements.txt","r");
 
     if (fp==NULL){
