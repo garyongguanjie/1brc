@@ -6,6 +6,8 @@ baseline.c -> ~ 2minutes
 
 baseline2.c -> ~ 1 minute
 
+fast.c -> 15s mmap+multithreaded, though occassionaly segfaults presumably due to concurrency
+
 baseline.py -> ~ 15 minutes
 
 baseline.js -> ~ 12 minutes
